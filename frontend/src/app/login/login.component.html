@@ -1,0 +1,21 @@
+
+<div class="container" >
+<div class="login">
+<h1>Login</h1>
+
+<form role="form" (submit)="login($event, email.value, password.value)">
+<md-input-container>
+  <input mdInput placeholder="e-mail" #email value="rmelfi@gmail.com" type="email" id="email">
+</md-input-container>
+<br/>
+<md-input-container>
+  <input mdInput placeholder="password" #password value="password" type="password" id="password">
+</md-input-container>
+<br/>
+<button type="submit" md-raised-button color="primary">Login</button> 
+
+</form>
+</div>
+</div>
+
+
